@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            if (ValidarIdentificaciones.validarCedulaNatural("0925348229")) {
+            if (ValidarIdentificaciones.validarCedulaNatural("1350420204")) {
                 System.out.println("Es Valida");
             }
         } catch (Exception e) {
