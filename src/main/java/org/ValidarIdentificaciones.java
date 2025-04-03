@@ -27,7 +27,7 @@ public class ValidarIdentificaciones {
             throw new Exception("El número de identificación no puede ir nulo.");
         }
         if (noIdentificacion.isEmpty()) {
-            throw new Exception("El número de identificación no puede vacío.");
+            throw new Exception("El número de identificación no puede ir vacío.");
         }
         if (noIdentificacion.length() != noDigitos) {
             throw new Exception("La cédula debe tener " + noDigitos + " caracteres.");
